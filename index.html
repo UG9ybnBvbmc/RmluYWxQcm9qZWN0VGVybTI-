@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Pornpong Hanakee</title>
+    <link rel="shortcut icon" href="./assets/Images/toyou.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/Images/toyou.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/Images/toyou.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link href="https://kit-pro.fontawesome.com/releases/v6.7.2/css/pro.min.css" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.css" />
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/animejs@3.2.2/lib/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Athiti:wght@200;300;400;500;600;700&family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mitr:wght@200;300;400;500;600;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap" rel="stylesheet">
+
+    <script src='./assets/Scripts/tinysort.js'></script>
+    <script src="./assets/Scripts/sweetalert.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    <link href="./assets/Styles/bootstrap4.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css'>
+
+    <script src='https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js'></script>
+    <script src='https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js'></script>
+    <script src='https://cdn.datatables.net/1.13.8/js/dataTables.bootstrap5.min.js'></script>
+
+    <link rel="stylesheet" href="./assets/Styles/Main.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.3/dist/bootstrap-table.min.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3319994155032571" crossorigin="anonymous"></script>
+    <style>
+        :root {
+            --color-main: #65aa46;
+            --color-main-opa-75: #65aa4675;
+            --color-main-opa-50: #65aa4650;
+            --color-main-opa-25: #65aa4625;
+            --color-main-opa-15: #65aa4615;
+
+            --color-button: #62ac3a;
+            --color-button-opa-75: #62ac3a75;
+            --color-button-opa-50: #62ac3a50;
+            --color-button-opa-25: #62ac3a25;
+            --color-button-opa-15: #62ac3a15;
+
+            --color-text: #63ab3c;
+            --color-text-opa-85: #63ab3c85;
+            --color-text-opa-75: #63ab3c75;
+            --color-text-opa-50: #63ab3c50;
+            --color-text-opa-25: #63ab3c25;
+            --color-text-opa-15: #63ab3c15;
+
+            --color-border: #dee2e6;
+            --color-bg-theme: #fff;
+            --color-text-theme: #0009;
+            --color-text-theme-opa-25: #6c757d20;
+            --color-text-theme-opa-50: #6c757d50;
+            --color-text-theme-opa-75: #6c757d75;
+            --color-text-theme-opa-85: #6c757d85;
+        }
+
+        .border {
+            border: 1px solid var(--color-border) !important;
+        }
+
+        *:not(i) {
+            font-family: 'Kanit', sans-serif;
+            font-weight: normal !important;
+        }
+
+        body {
+            background-color: #ededed;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+
+        .widget-icon {
+            color: var(--color-main);
+            font-size: 24px;
+            background-color: #65aa4620;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 3px;
+            display: inline-block
+        }
+
+        .text-theme,
+        .text-theme i {
+            color: var(--color-text-theme) !important;
+        }
+
+        .image-size-tag {
+            /* &nbsp;<span class="image-size-tag">1,500 x 1,500</span> */
+            position: relative;
+            width: max-content;
+            height: fit-content;
+            top: -3px;
+            padding-left: 1vh;
+            padding-right: 1vh;
+            padding-top: 0.3vh;
+            padding-bottom: 0.3vh;
+            border-radius: 90vh;
+            font-size: 11px;
+            line-height: 0.5vh;
+            font-weight: 500 !important;
+            background-color: var(--color-main-opa-25);
+            color: var(--color-main);
+            border: 1.5px solid var(--color-main);
+        }
+
+        .nav-search {
+            background-color: transparent;
+            display: block;
+            text-decoration: none;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+        }
+
+        .input-blur {
+            filter: blur(3px);
+            -webkit-filter: blur(3px);
+        }
+
+        .input-blur:hover,
+        .input-blur:active,
+        .input-blur:focus {
+            filter: blur(0px);
+            -webkit-filter: blur(0px);
+        }
+
+        table:not(.not-td-hover) tbody tr:nth-of-type(odd) {
+            background-color: rgba(101, 170, 70, 0.02) !important;
+        }
+
+        table:not(.not-td-hover) tr:hover td {
+            background-color: rgba(101, 170, 70, 0.05) !important;
+        }
+    </style>
+</head>
+
+
+<body onload='let scroll = window.scrollY; let scrollString = scroll.toString(); localStorage.setItem("scrollPosition_Body", scrollString);'>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=#"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', '#');
+    </script>
+
+    <style>
+        .loader {
+            height: 100%;
+            width: 100%;
+            background: var(--color-main);
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .load-hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .icon {
+            display: block;
+            max-height: 80px;
+        }
+    </style>
+
+    <div class="loader">
+        <img class="icon" src="./assets/Loader/cat_v2.gif">
+    </div>
+
+    <script>
+        window.addEventListener("load", (event) => {
+            setTimeout(() => {
+                $(".loader").addClass("load-hidden")
+            }, 250);
+        });
+
+        document.addEventListener("readystatechange", (event) => {
+            setTimeout(() => {
+                $(".loader").addClass("load-hidden")
+            }, 250);
+        });
+
+        document.addEventListener("DOMContentLoaded", (event) => {
+            setTimeout(() => {
+                $(".1oader").addClass("load-hidden")
+            }, 250);
+        });
+    </script>
+    <nav class="navbar navbar-expand-xl sticky-top mb-0" id="navigationbar"></nav>
+    <script>
+        $.get('./navbar.html', function(file) {
+            $("#navigationbar").html(file)
+        });
+    </script>
+
+    <style>
+        #christmas {
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <canvas id="christmas"></canvas>
+
+    <script>
+        const christmas = document.getElementById('christmas');
+        const ctx = christmas.getContext('2d');
+        const W = window.innerWidth;
+        const H = window.innerHeight;
+        christmas.width = W;
+        christmas.height = H;
+
+        const particles = [];
+        const images = [];
+        const snowParticleCount = 50;
+        const imageParticleCount = 10;
+        const imgSrcs = [
+            "https://cdn-icons-png.flaticon.com/512/9004/9004955.png",
+            "https://cdn-icons-png.flaticon.com/512/9004/9004922.png",
+            "https://cdn-icons-png.flaticon.com/512/9004/9004824.png",
+            "https://cdn-icons-png.flaticon.com/512/9004/9004953.png",
+            "https://cdn-icons-png.flaticon.com/512/9004/9004896.png"
+        ];
+
+        const loadedImages = imgSrcs.map(src => {
+            const img = new Image();
+            img.src = src;
+            return img;
+        });
+
+        function createSnowParticle() {
+            return {
+                type: "snow",
+                x: Math.random() * W,
+                y: Math.random() * H,
+                vx: (Math.random() * (2 - 0.75) + 0.75) * (Math.random() < 0.75 ? -1 : 1),
+                vy: Math.random() * (2 - 0.75) + 0.75,
+                radius: Math.random() * (3 - 1) + 1,
+                alpha: Math.random() * 1 + 0.5
+            };
+        }
+
+        function createImageParticle() {
+            return {
+                type: "image",
+                x: Math.random() * W,
+                y: Math.random() * H,
+                vx: (Math.random() * (2 - 0.75) + 0.75) * (Math.random() < 0.75 ? -1 : 1),
+                vy: Math.random() * (2 - 0.75) + 0.75,
+                size: Math.random() * 10 + 20,
+                rotation: Math.random() * Math.PI * 2,
+                rotationSpeed: Math.random() * 0.05 - 0.025,
+                img: loadedImages[Math.floor(Math.random() * loadedImages.length)]
+            };
+        }
+
+        for (let i = 0; i < snowParticleCount; i++) {
+            particles.push(createSnowParticle());
+        }
+
+        for (let i = 0; i < imageParticleCount; i++) {
+            images.push(createImageParticle());
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, W, H);
+
+            particles.forEach(p => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2, false);
+                ctx.fillStyle = `rgba(255, 255, 255, ${p.alpha})`;
+                ctx.fill();
+                p.x += p.vx;
+                p.y += p.vy;
+
+                if (p.x < -p.radius) p.x = W + p.radius;
+                if (p.y > H + p.radius) p.y = -p.radius;
+            });
+
+            images.forEach(p => {
+                ctx.save();
+                ctx.translate(p.x + p.size / 2, p.y + p.size / 2);
+                ctx.rotate(p.rotation);
+                ctx.drawImage(p.img, -p.size / 2, -p.size / 2, p.size, p.size);
+                ctx.restore();
+
+                p.x += p.vx;
+                p.y += p.vy;
+                p.rotation += p.rotationSpeed;
+
+                if (p.x < -p.size) {
+                    p.x = W + p.size;
+                } else if (p.x > W + p.size) {
+                    p.x = -p.size;
+                }
+                if (p.y > H + p.size) {
+                    p.y = -p.size;
+                    p.x = Math.random() * W;
+                }
+            });
+
+            requestAnimationFrame(draw);
+        }
+
+        Promise.all(loadedImages.map(img => new Promise(resolve => img.onload = resolve)))
+            .then(() => {
+                draw();
+            });
+
+        window.addEventListener('resize', () => {
+            christmas.width = W = window.innerWidth;
+            christmas.height = H = window.innerHeight;
+        });
+    </script>
+
+    <div class="Main"></div>
+    <script>
+        $.get("./Home.html",function(p){
+            $('.Main').html(p)
+        })
+    </script>
+    <div id="custom_backdrop" class="modal-backdrop show" hidden></div>
+    <style>
+        .hidden-input-auto-fill {
+            opacity: 0 !important;
+            width: 0px !important;
+            height: 0px !important;
+            z-index: 0 !important;
+        }
+    </style>
+    <input type="text" class="hidden-input-auto-fill">
+    <script src="./assets/Scripts/FunctionsHandler.js"></script>
+<script src='./assets/Scripts/protect.js'></script>
+<script>
+    setInterval(function(){
+        validationtk('./Homepage.html')
+    },1000)
+</script>
+</html>
